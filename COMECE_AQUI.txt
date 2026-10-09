@@ -1,0 +1,15 @@
+AGENDA CONDOMINIAL
+Assembleias, reunioes e lembretes. Vermelho e branco.
+
+1. Extraia TODO o ZIP.
+2. Entre na pasta AgendaCondominial.
+3. De dois cliques em INSTALAR.bat e aguarde.
+4. Abra o atalho AgendaCondominial na area de trabalho.
+
+Para usar agora neste PC: escolha Somente neste computador.
+Para compartilhar: publique o servidor conforme docs/HOSPEDAR_RENDER.md.
+Depois escolha Equipe online e informe URL, e-mail e senha.
+
+Este aplicativo e separado do ContasPagar. Nao substitua arquivos do ContasPagar.
+Para atualizar a Agenda, feche pelo botao Sair antes de executar INSTALAR.bat novamente.
+O instalador baixa as dependencias. A hospedagem ainda precisa ser configurada.
