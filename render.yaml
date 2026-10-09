@@ -8,17 +8,18 @@ services:
     startCommand: python -m uvicorn server.api:app --host 0.0.0.0 --port $PORT --workers 1
     healthCheckPath: /health
     disk:
-      name: agenda-condominial-dados
-      mountPath: /var/data
-      sizeGB: 1
+    name: agenda-condominial-dados
+    mountPath: /var/data
+    sizeGB: 1
     envVars:
       - key: PYTHON_VERSION
         value: 3.13.12
       - key: TZ
         value: America/Sao_Paulo
       - key: AGENDA_SERVER_DIR
-        value: /var/data/agenda
+        value: ./data
       - key: AGENDA_ADMIN_EMAIL
+        value: admin@agenda.com
         sync: false
       - key: AGENDA_ADMIN_PASSWORD
         sync: false
